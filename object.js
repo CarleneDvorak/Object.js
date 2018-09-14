@@ -20,13 +20,17 @@ console.log (`Look, a cat! ${dog.name} barks: ${dog.bark}`);
 const account ={
     name: "Alex",
     balance: 0,
-     describe(){
+     
+    describe(){
         return`owner: ${this.name} balance ${this.balance}`;
     }}
     console.log(account.describe());
 
+    credit(+250 + -80){
+          return`owner: ${this.name} balance ${this.balance}`;
+    }}
+    console.log(account.credit());
 
-
-    //function credit (account){
-        //console.log (`owner: ${account.name} ${account.balance}`);
+}
+    
     
