@@ -23,14 +23,15 @@ const account ={
      
     describe(){
         return`owner: ${this.name} balance ${this.balance}`;
-    }}
-    console.log(account.describe());
+    },
+    
 
-    credit(+250 + -80){
-          return`owner: ${this.name} balance ${this.balance}`;
-    }}
-    console.log(account.credit());
-
+    credit(){
+          return`owner: ${this.name} balance ${this.balance +250 -80}`;
+    }
+    
 }
+console.log(account.describe());
+console.log(account.credit());
     
     
